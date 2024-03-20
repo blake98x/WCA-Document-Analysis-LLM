@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/blakethompson/Python Shit/Test_WCA_LC/WCA-Doc-Analysis"
+setenv VIRTUAL_ENV "/Users/blakethompson/Python Shit/Test_WCA_LC/WCA-Document-Analysis-LLM"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,7 +17,7 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(WCA-Doc-Analysis) $prompt"
+    set prompt = "(WCA-Document-Analysis-LLM) $prompt"
 endif
 
 alias pydoc python -m pydoc

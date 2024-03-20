@@ -30,6 +30,10 @@ The tool developed here seeks to allow for quick responses primarily for the fol
 
 ## Usage:
 
+```
+streamlit run app.py
+```
+
 ## Reflection:
 
 ## Future Steps:

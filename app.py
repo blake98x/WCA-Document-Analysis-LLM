@@ -14,8 +14,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
-
-import json
 #%%
 
 def import_documents(url, downloaded_documents):
@@ -45,7 +43,7 @@ def create_page():
 
 def read_pdfs(downloaded_documents):
 
-    for doc in downloaded_documents:
+    for index, doc in enumerate(downloaded_documents):
         pdf_reader = PdfReader('Documents/' + doc)
         text = ''
         for page in pdf_reader.pages:
@@ -79,9 +77,6 @@ def read_pdfs(downloaded_documents):
             response = chain.run(input_documents=docs, question=user_question)
 
             st.write(response)
-        
-
-
 
 def main():
 
@@ -104,6 +99,7 @@ def main():
     create_page()
 
     read_pdfs(downloaded_documents[0:1])
+
 
 
 
