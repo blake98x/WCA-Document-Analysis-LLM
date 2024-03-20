@@ -43,3 +43,5 @@ The tool developed here seeks to allow for quick responses primarily for the fol
 [1] https://www.worldcubeassociation.org/about
 
 [2] https://www.youtube.com/watch?v=wUAUdEw5oxM
+
+[3] https://python.langchain.com/docs/use_cases/question_answering/
