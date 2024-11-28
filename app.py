@@ -92,6 +92,7 @@ def main():
         for context in urls.keys()
     }
 
+    # Import all relevant documents
     for context, url in urls.items():
         import_documents(url, downloaded_documents[context], context)
 

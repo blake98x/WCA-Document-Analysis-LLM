@@ -34,7 +34,7 @@ The tool developed here seeks to allow for quick responses to address two fundam
 
 ## How does it work?
 
-This project leverages the surge of popularity and utility in LLMs as a means of developing a chatbot for a hyper-specific use-case. We lean heavily on the use of LangChain, which is a "framework for developing applications powered by large language models (LLMs)" within Python [\[3\]](https://python.langchain.com/docs/introduction/). In particular, we use the RAG pipeline -- which begins by ingesting and indexing the documents we send into it, and a retriever "takes the user query at run time, retrieves the relevant data from the index, [and] then passes that to the model [\[4\]](https://python.langchain.com/docs/tutorials/rag/)."
+This project leverages the surge of popularity and utility in LLMs as a means of developing a chatbot for a hyper-specific use-case. We lean heavily on the use of LangChain, which is a "framework for developing applications powered by large language models (LLMs)" within Python [[3](https://python.langchain.com/docs/introduction/)]. In particular, we use the RAG pipeline -- which begins by ingesting and indexing the documents we send into it, and a retriever "takes the user query at run time, retrieves the relevant data from the index, [and] then passes that to the model [[4](https://python.langchain.com/docs/tutorials/rag/)]."
 
 ## Usage:
 
